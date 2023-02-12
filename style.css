@@ -1,0 +1,379 @@
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: Roboto,Arial,sans-serif;
+    color: rgb(86, 90, 92);
+    font-weight: 400px;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    transition: box-shadow .25s ease 0s;
+    box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+    z-index: 3;
+    background-color: #f5f9f5;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 1000px;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 10px;
+}
+ 
+
+.links ul li {
+     display:inline;
+     list-style: none;
+     justify-content: space-around;
+     padding-left: 10px;
+     margin-right: 10px;
+     
+}
+
+.links > ul li a{
+    text-decoration: none;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline;
+    
+}
+
+.dropbtn {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: rgba(242, 242, 234, 0.911);
+    padding: 20px;
+    margin-left: 60px;
+    height: 250px;
+    width: 200px;
+}
+
+.dropdown:hover .dropdown-content > a{
+    padding-bottom: 15px;
+    font-weight: 600;
+    color: rgb(125, 94, 94);
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+
+    /* margin-left: -10px; */
+}
+
+.dropdown a:hover{
+    background-color: #e0e3e0;
+    color: #3e8e41;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: aliceblue;
+    color: #3e8e41;
+}
+
+    /* FIRST SECTION */
+  .sec2{
+    width: 1070px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+  }  
+
+  .secBox{
+    padding-top: 80px;
+  }
+
+  .sec2 img{
+    margin: 30px;
+  }
+
+  .sec2 h1{
+    color: #00b39b;
+    font-size: 2.120rem;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+  }
+
+  .text2{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin: 40px;
+    word-spacing: 3px;
+    font-weight: 600;
+    font-family: Roboto,Arial,sans-serif;
+
+  }
+
+  .col-1 .col-2{
+    width: 100%;
+    
+  }
+
+  .col-1 {
+    padding: 15px;
+  }
+
+  .col-2 {
+    padding: 15px;
+  }
+
+ /* SECTIONS FOR PATIENTS/DOCTORS AND CLINICS */
+
+ .pdc {
+    width: 100%;
+ }
+ .three-col{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1050px;
+ }
+
+ .three-col .forDoctors .forClinics .forPatients {
+    color: #fff;
+    text-shadow: none;
+    line-height: 1.3;
+    
+ }
+
+ .forPatients{
+    background-color: #00b39b;
+    height: 345px;
+    border-radius: 10px;
+    width: 311.63px;
+    margin: 5px;
+    color: white;
+
+ }
+
+ .inner-forPatients{
+    padding: 30px;
+ }
+
+ .text-forPatients{
+    padding: 10px;
+    margin-bottom: 30px;
+ }
+ 
+
+ .forDoctors {
+    background-color: #3d83df;
+    height: 345px;
+    border-radius: 10px;
+    width: 311.63px;
+    margin: 5px;
+    color: white;
+ }
+
+ .inner-forDoctors{
+    padding: 30px;
+ }
+
+ .text-forDoctors{
+    padding: 10px;
+    margin-bottom: 30px;
+ }
+    
+ .country-ls{
+    line-height: 150px;
+    margin: 20px 0px 5px 0;
+ }
+
+ .forClinics {
+    background-color: #1b2734;
+    height: 345px;
+    border-radius: 10px;
+    width: 311.63px;
+     margin: 5px;
+     color: white;
+ }
+
+ .inner-forClinic{
+    padding: 30px;
+ }
+
+ .text-forClinic{
+    padding: 10px;
+    margin-bottom: 20px;
+ }
+
+ /* 2 to 20 specialists */
+
+ .innerCountry-ls{
+  width: 100%;
+ }
+
+#data-country, more-Countries{
+    background: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 19.2px;
+    color: white;
+    padding: 15px;
+ }
+ /* CULTURE SECTION */
+ 
+ .comp-culture{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 990px;
+    padding: 40px 0px 30px;
+    margin-top: 15px;
+ }
+
+ .culText{
+    float: left;
+    width: 33%;
+    margin: 0.25em 0 0.35em;
+    
+ }
+
+ .culText > h1 {
+   letter-spacing: -.3px;
+    font-weight: 300;
+    word-spacing: 0.2rem;
+    padding-right: 1em;
+    color: #00b39b;
+    font-size: 1.325em;
+ }
+
+ .cultureLinks{
+    /* display: flex; */
+ }
+
+ .brand-logo {
+   /* display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   font-size: 0;
+   
+    */
+   /* height: 156.36px; */
+   display: grid;
+   grid-template-columns: 2fr  2fr 2fr 2fr;
+   grid-template-rows: 2fr 2fr;
+   margin-left: auto;
+   margin-right: auto;
+   list-style: none;
+    
+ }
+
+ .brand-logo > li a {
+   padding: 5px 0 15px 5px;
+   margin-left: 30px;
+   font-size: 1.0em;
+   text-decoration: none;
+ }
+
+/* jdjsmhjhmbjczvjhgvvk */
+
+
+
+
+
+/* jngsdfhmvshjfgdyfglnjkfdjldk */
+
+
+.text-pictures {
+   max-width: 1015px;
+   padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+   position: relative;
+   
+}
+
+.pictures-header {
+   max-width: 460px;
+   font-size: .875em;
+   text-align: center;
+   padding: 0px 20px;
+   margin: 0 auto 4.1875rem;
+}
+
+.pictures-header > h1{
+  font-size: 2.1428em;
+  font-weight: 300;
+  letter-spacing: -.3px;
+  margin: 30px;
+  color: #00b39b;
+}
+
+.pictures-header > p {
+   width: 420px;
+   margin: 22.4px 0px;
+   color: #747474;
+}
+
+.pictures{
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+    
+}
+
+.pictures > img{
+   border-radius: 12px;
+   margin: 12px; 
+}
+
+.under-picture {
+   font-size: 1.125em;
+   font-weight: 400;
+   line-height: 1.66666667;
+   padding: 1.111em;
+   display: flex;
+   justify-content: space-between;
+   color: #676161;
+}
+
+.under-picture > button {
+   background-color: #3d83df;
+   color: #fff;
+   text-align: center;
+   line-height: 1em;
+   border-radius: 4px;
+   font-family: Roboto, Arial,sans-serif;
+   font-size: 15px;
+   padding: 0.2px 1.5px;
+}
