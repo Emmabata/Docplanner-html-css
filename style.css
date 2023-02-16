@@ -306,13 +306,50 @@ nav {
    text-decoration: none;
  }
 
-/* jdjsmhjhmbjczvjhgvvk */
+/* STATS BACKGROUND */
+
+.stats {
+   width: 1263.33px;
+   height:600px ;
+   background: #cafcf1;
+   padding: 30px 0x 10px;
+   margin: 50px 0px 88px;
+   position: relative;
+  
+}
 
 
+.stats .background img{
+   background:#cafcf1 ;
+   /* position: absolute; */
+   margin-bottom: -19rem;
+   width: 400px;
+}
 
 
+.grid {
+   display: flex;
+   width: 995*560px;
+   margin: 0px 10px;
+}
 
-/* jngsdfhmvshjfgdyfglnjkfdjldk */
+.inner-flesh1{
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+   width: 228.75px;
+   /* background: #ffffff; */
+   padding: i5px;
+
+}
+.stats-item{
+   background: #ffffff;
+   padding: 15px;
+   width: 228.75px;
+   height: 250px;
+   margin: 20px;
+}
+
+/* STATS BACKGROUND */
 
 
 .text-pictures {
@@ -352,8 +389,8 @@ nav {
     
 }
 
-.pictures > img{
-   border-radius: 12px;
+.pictures .picture-item > img{
+   border-radius: 10px;
    margin: 12px; 
 }
 
@@ -375,5 +412,57 @@ nav {
    border-radius: 4px;
    font-family: Roboto, Arial,sans-serif;
    font-size: 15px;
-   padding: 0.2px 1.5px;
+   padding:10px 12px;
+   font-weight: 650;
+}
+
+/* CALL TO ACTION */
+
+.call-action{
+   max-width: 560px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.inner-call-action{
+   margin: 40px 163.33px;
+   width: 520px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+
+}
+.inner-call-action h1 {
+   width: 520px;
+   color: #847e7e;
+   font-size: 30px;
+   margin-top: 3em;
+   font-family: "Work Sans", Arial, sans-serif;
+   font-weight: 50;
+}
+
+.inner-call-action a button{
+   color: #fcfbfb;
+   font: 15px Roboto, Arial,san-serif;
+   background: #3D83Df;
+   padding: 14px 18px;
+   font-weight: 650;
+   border-radius: 8px;
+   margin-top: 20px;
+}
+/* FOOTER */
+.main-footer{
+   width: 886.67 * 105.56px;
+   color: #ABABAB;
+   padding: 40px 20px;
+   font: 12px Roboto, Arial,sans-serif;
+   text-align: center;
+   clear: none;
+}
+
+.main-footer .footer > p{
+   padding: 12px;
+   margin-top: 5px;
+   width: 886.67 * 105.56px;
+   color: #696161;
 }
